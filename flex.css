@@ -77,3 +77,125 @@ ul li {
   padding: 2rem 0;
 }
 
+.container {
+  margin-top: 20px;
+  background-color: purple;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.container * {
+  background-color: orange;
+  height: 50px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container header {
+  flex-basis: 100%;
+
+}
+
+.container footer {
+  flex-basis: 100%;
+ } 
+
+.container aside {
+  /* flex-basis: 20%; */
+  flex-grow: 1;
+}
+
+.container main {
+  /* flex-basis: 50%; */
+  flex-grow: 5;
+}
+
+.container article {
+  /* flex-basis: 20%; */
+  flex-grow: 1;
+}
+
+.shrink{
+    background-color: indigo;
+    margin-top: 50px;
+    display: flex;
+    gap:1rem
+}
+
+.shrink *{
+    /* width: 200px; */
+    height: 100px;
+}
+
+.box1{
+    background-color: orange;
+    /* flex-grow: 1;
+    flex-shrink: 0; */
+    /* flex: 1 1 0; */
+    flex: 1 0 5rem;
+}
+
+.box2{
+    background-color: crimson;
+    /* flex-grow: 1;
+    flex-shrink: 5; */
+    /* flex: 1 1 0; */
+    flex: 5;
+}
+
+.box3{
+    background-color: greenyellow;
+    /* flex-grow: 1;
+    flex-shrink: 2; */
+    /* flex: 1 1 0; */
+    flex: 1;
+}
+
+.container2 {
+    margin-top: 20px;
+    background-color: purple;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .container2 * {
+    background-color: orange;
+    height: 50px;
+
+  }
+  
+  .container2 header {
+    width: 100%;
+    background-image: url("https://picsum.photos/id/237/600/400");
+    background-size: contain;
+  
+  }
+  
+  .container2 footer {
+    width: 100%;
+
+   } 
+  
+  .container2 aside {
+    /* width: calc((33.3333%) - (2rem/3)); */
+    width: 20%;
+  }
+  
+  .container2 main {
+    /* width: calc((33.3333%) - (2rem/3)); */
+    width: 55%;
+  }
+  
+  .container2 article {
+    /* width: calc((33.3333%) - (2rem/3)); */
+    width: 20%;
+  }
